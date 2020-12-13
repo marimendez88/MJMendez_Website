@@ -1,6 +1,7 @@
-# Mjwebsite
+# Maria Jose Mendez
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+Maria Jose Mendez website is a personal and open space to her information, skills, contact and more. 
 
 ## Development server
 
