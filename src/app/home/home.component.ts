@@ -1,4 +1,4 @@
-import  { datoCMS }  from './../services/datocms';
+import  { datoCMS }  from '../config/connections';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,14 +11,10 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-   
-
     datoCMS.site.find()
-.then((site) => {
-  console.log(site);
-})
-
-  
+    .then((site) => {
+      console.log(site);
+    });
   }
 
 
